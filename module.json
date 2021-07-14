@@ -1,0 +1,23 @@
+{
+    "name": "spell-level-buttons-for-dnd5e",
+    "title": "Spell Level Buttons for DnD 5e",
+    "description": "Replaces the spell level select dropdown menu with buttons",
+    "author": {
+        "Name": "Sua Mãe, Aquela Católica",
+        "email": "alan@tpk.gg",
+        "discord": "Sua mãe, Aquela Católica#2512"
+    },
+    "version": "1.00",
+    "minimumCoreVersion": "0.7",
+    "compatibleCoreVersion": "0.8.8",
+    "scripts": [
+        "scripts/spell_level_buttons.js"
+    ],
+    "styles": [
+        "spell-level-buttons.css"
+    ],
+    "manifest": "https://github.com/Rayuaz/spell-level-buttons-for-dnd5e/releases/latest/download/module.json",
+	"url": "https://github.com/Rayuaz/spell-level-buttons-for-dnd5e",
+    "download": "https://github.com/Rayuaz/spell-level-buttons-for-dnd5e/releases/latest/download/spell-level-buttons-for-dnd5e.zip",
+    "readme": "https://github.com/Rayuaz/spell-level-buttons-for-dnd5e/blob/master/README.md"
+}
