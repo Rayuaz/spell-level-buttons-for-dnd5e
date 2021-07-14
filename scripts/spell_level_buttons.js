@@ -55,5 +55,6 @@ Hooks.on('renderAbilityUseDialog', function(options) {
         $(options._element[0]).find('.spell-lvl-btn__label').on('click', function() {
             levelSelectWrapper.find('select').val( $(this).find('input').val() );
         });
+
     }
 });
