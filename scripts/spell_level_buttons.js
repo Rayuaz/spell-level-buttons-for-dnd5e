@@ -24,17 +24,18 @@ Hooks.on('renderAbilityUseDialog', function(options) {
             </div>
         `);
 
-        // Append a button for each spell level that the user can cast
-        let i = selectedLevel;
-        
+        // Append a button for each spell level that the user can cast        
         $(options._element[0]).find(`select[name="level"] option`).each(function() {
 
             let availableSlots = $(this).text().match(/\(\d+\s\w+\)/)[0].match(/\d+/)[0];
             let availableSlotsBadge = '';
-            let i = $(this).val();
+            let value = $(this).val();
+            let i;
 
-            if(i == "pact") {
+            if(value == "pact") {
                 i = "p" + $(this).text().match(/\d/)[0]; // Get the pact slot level
+            } else {
+                i = value;
             }
 
             if(availableSlots > 0) {
@@ -44,7 +45,7 @@ Hooks.on('renderAbilityUseDialog', function(options) {
             $(options._element[0]).find('.spell-lvl-btn .form-fields').append(`
 
                 <label title="${$(this).text()}" class="spell-lvl-btn__label" for="${appId}lvl-btn-${i}">
-                    <input type="radio" id="${appId}lvl-btn-${i}" name="lvl-btn" value="${i}">
+                    <input type="radio" id="${appId}lvl-btn-${i}" name="lvl-btn" value="${value}">
                     <div class="spell-lvl-btn__btn">${i}</div>
                     ${availableSlotsBadge}
                 </label>
