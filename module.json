@@ -2,13 +2,14 @@
     "name": "spell-level-buttons-for-dnd5e",
     "title": "Spell Level Buttons for DnD 5e",
     "description": "Replaces the spell level select dropdown menu with buttons",
-    "author": {
+    "author": "Sua Mãe, Aquela Católica",
+    "authors": {
         "Name": "Sua Mãe, Aquela Católica",
         "email": "alan@tpk.gg",
         "discord": "Sua mãe, Aquela Católica#2512"
     },
     "version": "1.02",
-    "minimumCoreVersion": "0.7",
+    "minimumCoreVersion": "0.8.8",
     "compatibleCoreVersion": "0.8.8",
     "scripts": [
         "scripts/spell_level_buttons.js"
