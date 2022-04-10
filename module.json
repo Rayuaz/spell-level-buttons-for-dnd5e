@@ -9,6 +9,7 @@
         "discord": "Sua mãe, Aquela Católica#2512"
     },
     "version": "1.03",
+    "system": ["dnd5e"],
     "minimumCoreVersion": "0.8.8",
     "compatibleCoreVersion": "0.8.9",
     "scripts": [
