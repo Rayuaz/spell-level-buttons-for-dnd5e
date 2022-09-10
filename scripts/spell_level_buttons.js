@@ -1,5 +1,5 @@
 Hooks.on('renderAbilityUseDialog', function(options) {
-    if($('.dnd5e.dialog #ability-use-form select[name="level"]').length > 0) { // If the dialog box has a option to select a spell level
+    if($('.dnd5e.dialog #ability-use-form select[name="consumeSpellLevel"]').length > 0) { // If the dialog box has a option to select a spell level
 
         // Resize the window to fit the contents
         let originalWindowHeight = parseInt($(options._element[0]).css('height'));
@@ -25,7 +25,7 @@ Hooks.on('renderAbilityUseDialog', function(options) {
         `);
 
         // Append a button for each spell level that the user can cast        
-        $(options._element[0]).find(`select[name="level"] option`).each(function() {
+        $(options._element[0]).find(`select[name="consumeSpellLevel"] option`).each(function() {
 
             let availableSlots = $(this).text().match(/\(\d+\s\w+\)/)[0].match(/\d+/)[0];
             let availableSlotsBadge = '';
