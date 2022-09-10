@@ -1,24 +1,38 @@
 {
-    "name": "spell-level-buttons-for-dnd5e",
-    "title": "Spell Level Buttons for DnD 5e",
-    "description": "Replaces the spell level select dropdown menu with buttons",
-    "author": "Sua Mãe, Aquela Católica",
-    "authors": {
-        "Name": "Sua Mãe, Aquela Católica",
-        "email": "alan@tpk.gg",
-        "discord": "Sua mãe, Aquela Católica#2512"
+  "id": "spell-level-buttons-for-dnd5e",
+  "title": "Spell Level Buttons for DnD 5e",
+  "description": "Replaces the spell level select dropdown menu with buttons",
+  "version": "1.0.4",
+  "compatibility": {
+	
+    "minimum": "10",
+    "verified": "10"
+  },
+  "authors": [
+    {
+      "name": "Rayuaz",
+      "email": "",
+      "url": "https://github.com/Rayuaz",
+      "flags": {}
     },
-    "version": "1.03",
-    "minimumCoreVersion": "0.8.8",
-    "compatibleCoreVersion": "0.8.9",
-    "scripts": [
-        "scripts/spell_level_buttons.js"
-    ],
-    "styles": [
-        "spell-level-buttons.css"
-    ],
-    "manifest": "https://github.com/Rayuaz/spell-level-buttons-for-dnd5e/releases/latest/download/module.json",
-	"url": "https://github.com/Rayuaz/spell-level-buttons-for-dnd5e",
-    "download": "https://github.com/Rayuaz/spell-level-buttons-for-dnd5e/releases/latest/download/spell-level-buttons-for-dnd5e.zip",
-    "readme": "https://github.com/Rayuaz/spell-level-buttons-for-dnd5e/blob/master/README.md"
+	    {
+      "name": "UnoriginalDM",
+      "email": "",
+      "url": "",
+      "flags": {}
+    }
+  ],
+  "esmodules": [
+    "scripts/spell_level_buttons.js"
+  ],
+  "styles": [
+    "spell-level-buttons.css"
+  ],
+  "languages": [
+
+  ],
+  "manifest": "https://github.com/UnoriginalDM/spell-level-buttons-for-dnd5e/releases/latest/download/module.json",
+  "url": "https://github.com/UnoriginalDM/spell-level-buttons-for-dnd5e",
+  "download": "https://github.com/UnoriginalDM/spell-level-buttons-for-dnd5e/releases/latest/download/spell-level-buttons-for-dnd5e.zip",
+  "readme": "https://github.com/UnoriginalDM/spell-level-buttons-for-dnd5e/blob/master/README.md"
 }
